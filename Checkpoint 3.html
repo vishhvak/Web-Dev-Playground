@@ -22,23 +22,34 @@
             outline-color: green;
         }
         p.code{
-            font-family: 'Consolas';
-            color: darkgrey;
+            font-family: consolas;
+            color: red;
+            text-align: left;
+        }
+        #para{
+            font-size: 20px;
+            font-family: 'Comic Sans MS';
+            background-color: darkred;
+            color: yellow;
         }
     </style>
 </head>
 
 <body>
-    <h3 id="">Checkpoint 3!</h3>
+    <h3 id="title">Checkpoint 3!</h3>
     <h4>This checkpoint is on basic CSS usage, fonts, backgrounds etc.</h4>
     <p class="styles">I'm trying to see how to use styles - inline,internal and external.</p>
     <p style="font-style: italic; font-size: 20px; font-weight: bold">This is a small C++ Program</p>
-    <p class="pcode">
+    <p class="code">
         #include &lt;iostream&gt; <br>
         int main() <br>
         {<br>
         &emsp;cout &lt;&lt; "Hello World!"; <br>
-        }
+        }<br>
+        And it's aligned right!
+    </p>
+    <p id="para">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacus ligula, euismod in velit sed, dapibus dictum nisi. Phasellus sed volutpat justo, vel volutpat quam. Morbi commodo dolor vel metus vehicula elementum. Maecenas hendrerit arcu est, et consectetur velit pellentesque ut.
     </p>
     <span style="font-family: cursive; color:darkblue">This is done using the span tag.</span>
 </body>
